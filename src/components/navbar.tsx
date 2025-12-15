@@ -9,7 +9,7 @@ import {
 } from "@/components/ui/tooltip";
 import { DATA } from "@/data/resume";
 import { cn } from "@/lib/utils";
-import { NotebookIcon } from "lucide-react";
+import { FileTextIcon } from "lucide-react";
 import Link from "next/link";
 
 export default function Navbar() {
@@ -71,7 +71,7 @@ export default function Navbar() {
                   "size-12"
                 )}
               >
-                <NotebookIcon className="size-4" />
+                <FileTextIcon className="size-4" />
               </Link>
             </TooltipTrigger>
             <TooltipContent>
@@ -91,6 +91,6 @@ export default function Navbar() {
           </Tooltip>
         </DockIcon>
       </Dock>
-    </div>
+    </div >
   );
 }
