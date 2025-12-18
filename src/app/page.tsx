@@ -69,9 +69,9 @@ export default function Page() {
                 image: "/data-analytics.gif"
               },
               {
-                title: "UI/UX Design",
-                description: "Designing intuitive and accessible user interfaces with a focus on user experience and interaction.",
-                image: "/UI-UX.gif"
+                title: "Data Engineering",
+                description: "Designing and optimizing scalable data pipelines, ETL processes, and robust data architectures.",
+                image: "/Data-Eng.gif"
               },
             ].map((item, id) => (
               <BlurFade key={item.title} delay={BLUR_FADE_DELAY * 6 + id * 0.05}>
